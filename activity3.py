@@ -1,12 +1,10 @@
-class BMW():
-    def brand(self):
-        print("Its a BMW ")
+class A:
+    def __init__(dogbreed):
+        dogbreed.str1=""
+    
+    def get_String(self):
+        self.str1 = input("Enter String : ")
+        
+        
 
-class Ferrari():
-    def brand(self):
-        print("Its a Ferrari")
-
-b=BMW
-b.brand()
-f=Ferrari()
-f.brand()
+        
